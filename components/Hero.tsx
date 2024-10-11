@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image';
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -120,7 +120,14 @@ export default function Example() {
                 <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                     <div className="text-center">
                         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl border-solid">
-                            Linwood Business Solutions                        </h1>
+                            Linwood Business Solutions  
+                            <Image
+                            src={"/assets/fulllogo.png"}
+                            height={100}
+                            width={100}
+                            alt='Linwood Business Solutions Logo'
+                            />                      
+                            </h1>
                         <p className="mt-6 text-2xl leading-8 text-gray-300">
                             Increasing Companies Bottom Line with Employee Benefit Solutions
                         </p>

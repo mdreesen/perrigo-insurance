@@ -2,42 +2,34 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Invite team members',
-    description: 'Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.',
-  },
-  { name: 'List view', description: 'Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.' },
-  {
-    name: 'Keyboard shortcuts',
-    description: 'In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.',
+    name: 'Engage towards better health',
+    description: 'Early intervention and ongoing engagement.',
   },
   {
-    name: 'Calendars',
-    description: 'Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi fugiat sequi.',
-  },
-  { name: 'Notifications', description: 'Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.' },
-  { name: 'Boards', description: 'Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.' },
-  {
-    name: 'Reporting',
-    description: 'Eos laudantium repellat sed architecto earum unde incidunt. Illum sit dolores voluptatem.',
+    name: 'Strong financial incentives',
+    description: 'For both employer and employee.',
   },
   {
-    name: 'Mobile app',
-    description: 'Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.',
+    name: 'No net cost to employer',
+    description: 'FICA tax savings direct to the bottom line.',
   },
+  { 
+    name: 'Reduce healthcare costs',
+    description: 'For both employer and employee.' },
 ]
 
-export default function Example() {
+export default function Benefits() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white pb-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Everything you need</h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">All-in-one platform</p>
-            <p className="mt-6 text-base leading-7 text-gray-600">
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">Good health is good business</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Benefits</p>
+            {/* <p className="mt-6 text-base leading-7 text-gray-600">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
               dolor cupiditate blanditiis ratione.
-            </p>
+            </p> */}
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
