@@ -1,8 +1,11 @@
-import Link from 'next/link'
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon, ChatBubbleLeftIcon } from '@heroicons/react/24/outline'
-
+// 'use client'
+// import { useEffect, useRef, useState } from "react";
+import Link from 'next/link';
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon, ChatBubbleLeftIcon } from '@heroicons/react/24/outline';
+// import emailjs from "@emailjs/browser";
 
 export default function Contact() {
+
   return (
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -81,7 +84,7 @@ export default function Contact() {
             </dl>
           </div>
         </div>
-        <form action="#" method="POST" className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
+        {/* <form method="POST" action="" ref={form} onSubmit={sendEmail} className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -164,7 +167,7 @@ export default function Contact() {
               </button>
             </div>
           </div>
-        </form>
+        </form> */}
       </div>
     </div>
   )
