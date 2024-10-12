@@ -48,7 +48,7 @@ export default function Contact() {
             </dl>
           </div>
         </div>
-        <div>
+        <div className='p-2'>
           <Map />
         </div>
       </div>

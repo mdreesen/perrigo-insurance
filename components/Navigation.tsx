@@ -58,7 +58,7 @@ export default function Example() {
                         <Link href="/" className="-m-1.5 p-1.5">
                             <Image
                             className="h-20 w-auto"
-                            src="/assets/fulllogo.png"
+                            src="/assets/fulllogo.webp"
                             height={500}
                             width={500}
                             alt="Linwood Business Solutions Logo"
