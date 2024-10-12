@@ -1,4 +1,6 @@
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
+import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon, ChatBubbleLeftIcon } from '@heroicons/react/24/outline'
+
 
 export default function Contact() {
   return (
@@ -63,6 +65,17 @@ export default function Contact() {
                   <a href="mailto:robertjperrigo@gmail.com" className="hover:text-gray-900">
                     robertjperrigo@gmail.com
                   </a>
+                </dd>
+              </div>
+              <div className="flex gap-x-4">
+                <dt className="flex-none">
+                  <span className="sr-only">Book a meeting</span>
+                  <ChatBubbleLeftIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
+                </dt>
+                <dd>
+                  <Link href="/book-a-meeting" className="hover:text-gray-900">
+                    Book a meeting
+                  </Link>
                 </dd>
               </div>
             </dl>

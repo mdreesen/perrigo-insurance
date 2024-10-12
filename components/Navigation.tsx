@@ -57,11 +57,13 @@ export default function Example() {
                     <div className="flex items-center justify-between">
                         <Link href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img
-                                alt=""
-                                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-                                className="h-8 w-auto"
-                            />
+                            <Image
+                            className="h-20 w-auto"
+                            src="/assets/fulllogo.png"
+                            height={500}
+                            width={500}
+                            alt="Linwood Business Solutions Logo"
+                        />
                         </Link>
 
                         <button
@@ -85,14 +87,6 @@ export default function Example() {
                                         {item.name}
                                     </Link>
                                 ))}
-                            </div>
-                            <div className="py-6">
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-gray-800"
-                                >
-                                    Log in
-                                </a>
                             </div>
                         </div>
                     </div>
