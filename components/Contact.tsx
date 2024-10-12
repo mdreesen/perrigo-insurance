@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function Contact() {
@@ -45,12 +31,8 @@ export default function Contact() {
               </svg>
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-              integer elementum id sem. Arcu sed malesuada et magna.
-            </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
-              <div className="flex gap-x-4">
+              {/* <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Address</span>
                   <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
@@ -60,7 +42,7 @@ export default function Contact() {
                   <br />
                   Chicago, IL 99191
                 </dd>
-              </div>
+              </div> */}
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
@@ -68,7 +50,7 @@ export default function Contact() {
                 </dt>
                 <dd>
                   <a href="tel:+1 (555) 234-5678" className="hover:text-gray-900">
-                    +1 (555) 234-5678
+                    +1 (406) 407-6929
                   </a>
                 </dd>
               </div>
@@ -78,8 +60,8 @@ export default function Contact() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:hello@example.com" className="hover:text-gray-900">
-                    hello@example.com
+                  <a href="mailto:robertjperrigo@gmail.com" className="hover:text-gray-900">
+                    robertjperrigo@gmail.com
                   </a>
                 </dd>
               </div>

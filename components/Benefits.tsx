@@ -21,12 +21,12 @@ const features = [
 
 export default function Benefits() {
   return (
-    <div className="bg-gray-900 py-24 sm:py-32 text-white">
+    <div className="bg-gray-900 py-24 sm:py-32 text-white" id='benefits'>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Benefits</p>
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Good health is good business</h2>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Benefits</h2>
+            <p className="font-semibold leading-7 text-indigo-600 text-3xl sm:text-4xl">Good health is good business</p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-white sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
