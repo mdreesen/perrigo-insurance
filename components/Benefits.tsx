@@ -2,19 +2,19 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Engage towards better health',
+    name: 'Engage Towards Better Health',
     description: 'Early intervention and ongoing engagement.',
   },
   {
-    name: 'Strong financial incentives',
+    name: 'Strong Financial Incentives',
     description: 'For both employer and employee.',
   },
   {
-    name: 'No net cost to employer',
+    name: 'No Net Cost to Employer',
     description: 'FICA tax savings direct to the bottom line.',
   },
   {
-    name: 'Reduce healthcare costs',
+    name: 'Reduce Healthcare Costs',
     description: 'For both employer and employee.'
   },
 ]
@@ -27,6 +27,7 @@ export default function Benefits() {
           <div>
             <h2 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Benefits</h2>
             <p className="font-semibold leading-7 text-indigo-600 text-3xl sm:text-4xl">Good health is good business</p>
+            <p className='text-lg leading-8 text-white mt-6'>Any enterprise is only as good as its stable, healthy workforce. By using advanced tools and key insurance provider relationships, we capitalize on a 4-part strategy to bridge and capture health and financial gains for both  employer and team member beneficiaries.</p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-white sm:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
@@ -46,7 +47,7 @@ export default function Benefits() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-              <p className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl">Employee</p>
+              <p className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl">Key <span className='text-amber-500'>Employee</span>  Benefits</p>
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-white">
                   <ul className="list-disc px-6 lg:px-8">
@@ -59,7 +60,7 @@ export default function Benefits() {
               </figure>
             </div>
             <div className="flex flex-col border-t border-white/10 pt-10 sm:pt-16 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0 xl:pl-20">
-              <p className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl">Employer</p>
+              <p className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl">Key <span className='text-amber-500'>Employer</span> Benefits</p>
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg leading-8 text-white">
                 <ul className="list-disc px-6 lg:px-8">

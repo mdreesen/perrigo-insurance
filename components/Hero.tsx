@@ -25,16 +25,8 @@ export default function Hero() {
                 <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                     <div className="text-center">
                         <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl border-solid">
-                            Linwood<br/> Business Solutions
+                            Increasing Companies’ Bottom Line with Creative Employee Benefit Solutions
                         </h1>
-                        <p className="mt-6 text-2xl leading-8 text-gray-300">
-                            Increasing Companies Bottom Line with Employee Benefit Solutions
-                        </p>
-                        <div className="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#what-we-offer" className="text-sm font-semibold leading-6 text-white scroll-smooth">
-                                Learn more <span aria-hidden="true">→</span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div
