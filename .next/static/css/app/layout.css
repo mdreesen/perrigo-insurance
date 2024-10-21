@@ -552,17 +552,8 @@ video {
   top: 0px;
   bottom: 0px;
 }
-.-top-40 {
-  top: -10rem;
-}
 .left-0 {
   left: 0px;
-}
-.left-\[calc\(50\%\+3rem\)\] {
-  left: calc(50% + 3rem);
-}
-.left-\[calc\(50\%-11rem\)\] {
-  left: calc(50% - 11rem);
 }
 .right-0 {
   right: 0px;
@@ -573,17 +564,26 @@ video {
 .top-1 {
   top: 0.25rem;
 }
+.-top-40 {
+  top: -10rem;
+}
+.left-\[calc\(50\%\+3rem\)\] {
+  left: calc(50% + 3rem);
+}
+.left-\[calc\(50\%-11rem\)\] {
+  left: calc(50% - 11rem);
+}
 .top-\[calc\(100\%-13rem\)\] {
   top: calc(100% - 13rem);
 }
 .isolate {
   isolation: isolate;
 }
-.-z-10 {
-  z-index: -10;
-}
 .z-50 {
   z-index: 50;
+}
+.-z-10 {
+  z-index: -10;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
@@ -624,24 +624,6 @@ video {
 .mt-6 {
   margin-top: 1.5rem;
 }
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mb-20 {
-  margin-bottom: 5rem;
-}
-.mb-\[20rem\] {
-  margin-bottom: 20rem;
-}
-.mb-\[15rem\] {
-  margin-bottom: 15rem;
-}
-.mb-\[12rem\] {
-  margin-bottom: 12rem;
-}
-.mb-\[8rem\] {
-  margin-bottom: 8rem;
-}
 .block {
   display: block;
 }
@@ -660,11 +642,11 @@ video {
 .hidden {
   display: none;
 }
-.aspect-\[1155\/678\] {
-  aspect-ratio: 1155/678;
-}
 .aspect-\[4\/5\] {
   aspect-ratio: 4/5;
+}
+.aspect-\[1155\/678\] {
+  aspect-ratio: 1155/678;
 }
 .h-20 {
   height: 5rem;
@@ -687,24 +669,6 @@ video {
 .h-full {
   height: 100%;
 }
-.h-10 {
-  height: 2.5rem;
-}
-.h-\[10rem\] {
-  height: 10rem;
-}
-.h-\[8rem\] {
-  height: 8rem;
-}
-.h-\[2rem\] {
-  height: 2rem;
-}
-.h-\[1rem\] {
-  height: 1rem;
-}
-.h-\[100rem\] {
-  height: 100rem;
-}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -720,14 +684,14 @@ video {
 .w-\[100\%\] {
   width: 100%;
 }
-.w-\[36\.125rem\] {
-  width: 36.125rem;
-}
 .w-auto {
   width: auto;
 }
 .w-full {
   width: 100%;
+}
+.w-\[36\.125rem\] {
+  width: 36.125rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -903,13 +867,17 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -931,6 +899,9 @@ video {
 }
 .pt-24 {
   padding-top: 6rem;
+}
+.pt-16 {
+  padding-top: 4rem;
 }
 .text-center {
   text-align: center;
@@ -1044,6 +1015,24 @@ video {
   --tw-blur: blur(64px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.brightness-90 {
+  --tw-brightness: brightness(.9);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.brightness-50 {
+  --tw-brightness: brightness(.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-brightness-150 {
+  --tw-backdrop-brightness: brightness(1.5);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-brightness-90 {
+  --tw-backdrop-brightness: brightness(.9);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
 .text-balance {
     text-wrap: balance;
   }
@@ -1143,19 +1132,19 @@ body {
     padding-bottom: 8rem;
   }
 
-  .sm\:py-48 {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
-
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  .sm\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .sm\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .sm\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .sm\:pb-16 {
@@ -1275,6 +1264,16 @@ body {
   .lg\:py-56 {
     padding-top: 14rem;
     padding-bottom: 14rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .lg\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .lg\:pb-0 {
