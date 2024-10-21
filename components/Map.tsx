@@ -35,24 +35,7 @@ function map(data: any) {
     setMap(null)
   }, [])
 
-  return isLoaded ? (
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={10}
-        onLoad={onLoad}
-        onUnmount={onUnmount}
-        options={{
-          streetViewControl: false,
-          mapTypeControl: false,
-          center: center
-        }}
-      >
-        { /* Child components, such as markers, info windows, etc. */ }
-        <MarkerF position={center}></MarkerF>
-        <></>
-      </GoogleMap>
-  ) : <></>
+  return isLoaded && <iframe className={`${containerStyle}`} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.7094565253778!2d-114.34137875832235!3d48.424940244576106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x536669a8261feabf%3A0x8164afed6af9c820!2sWisconsin%20Ave%2C%20Montana%2059937!5e0!3m2!1sen!2sus!4v1729538547800!5m2!1sen!2sus" style={{ border: "0", width: "100%", height: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
 }
 
 export default React.memo(map)

@@ -16,7 +16,7 @@ const people = [
     description: "No employee benefit is more well received than one that puts more money in their pockets. Find out how employees are receiving as much as $1,572.00 or more in their real spendable, take-home pay with no impact to the company bottom line.",
   },
   {
-    name: 'Employee Proactive Health Maintenance',
+    name: 'Employee Proactive Health Management',
     imageUrl:
       '/assets/employee.webp',
     description: 'Empower your team members to live as vibrantly as possible. The Premier Plan offered by a partner of Linwood Business Solutions provides the insurance benefit infrastructure to increase employee health, attendance and morale, fortifying your enterprises’ bottom line.',
@@ -28,7 +28,7 @@ export default function WhatWeOffer() {
     <div className="bg-white py-24 sm:py-32" id='what-we-offer'>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What We Offer</h2>
+          <h2 className="text-4xl font-bold tracking-tight text-gray-900">What We Offer</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600"><span className="font-bold italic">Linwood Business Solutions</span> specializes in providing relationally-driven, insurance-based offerings to our enterprise partners. We seek to boost employer-employee relationships by maximizing “bottom line” insurance strategies.</p>
         </div>
         <ul

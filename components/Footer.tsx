@@ -3,7 +3,7 @@ import { yearToDate } from '@/lib/data';
 const navigation = {
     main: [
       { name: 'What we do', href: '/' },
-      { name: 'Book a meeting', href: '/book-a-meeting' },
+      { name: 'Schedule a meeting', href: '/schedule-a-meeting' },
       { name: 'Contact', href: '/contact' },
     ]
   }

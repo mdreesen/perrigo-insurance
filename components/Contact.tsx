@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-gray-900">Get in touch</h2>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
@@ -29,19 +29,19 @@ export default function Contact() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:robertjperrigo@gmail.com" className="hover:text-gray-900">
-                    robertjperrigo@gmail.com
+                  <a href="mailto: jordan@linwoodbusinesssolutions.com" className="hover:text-gray-900">
+                     jordan@linwoodbusinesssolutions.com
                   </a>
                 </dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
-                  <span className="sr-only">Book a meeting</span>
+                  <span className="sr-only">Schedule a meeting</span>
                   <ChatBubbleLeftIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <Link href="/book-a-meeting" className="hover:text-gray-900">
-                    Book a meeting
+                  <Link href="/Schedule-a-meeting" className="hover:text-gray-900">
+                    Schedule a meeting
                   </Link>
                 </dd>
               </div>
