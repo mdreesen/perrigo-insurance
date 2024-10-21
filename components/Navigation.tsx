@@ -18,7 +18,7 @@ export default function Example() {
         <header className="absolute inset-x-0 top-0 z-50">
             <nav aria-label="Global" className="flex items-center justify-between p-2 lg:px-8 bg-white h-[4rem]">
                 <div className="flex lg:flex-1">
-                    <Link href="/" className="-m-1.5 p-1.5">
+                    {/* <Link href="/" className="-m-1.5 p-1.5">
                         <Image
                             className="h-20 w-auto"
                             src="/assets/fulllogo.webp"
@@ -26,7 +26,7 @@ export default function Example() {
                             width={500}
                             alt="Linwood Business Solutions Logo"
                         />
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="flex lg:hidden">
                     <button
