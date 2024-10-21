@@ -4,7 +4,7 @@ export default function Hero() {
 
     return (
         <div>
-            <div className='h-full w-full flex justify-center' aria-hidden="true">
+            <div className='h-full w-full px-8 flex justify-center' aria-hidden="true">
                 <Image
                     className="w-auto"
                     src="/assets/fulllogo.webp"
