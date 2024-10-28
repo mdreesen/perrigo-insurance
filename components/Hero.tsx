@@ -11,6 +11,7 @@ export default function Hero() {
                     width={400}
                     height={400}
                     alt="Linwood Business Solutions Logo"
+                    priority
                 />
             </div>
 
@@ -21,6 +22,7 @@ export default function Hero() {
                     width={400}
                     height={400}
                     alt="Linwood Business Solutions Logo"
+                    priority
                 />
                 <div
                     aria-hidden="true"
