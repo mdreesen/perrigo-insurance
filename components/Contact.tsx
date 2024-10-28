@@ -40,7 +40,7 @@ export default function Contact() {
                   <ChatBubbleLeftIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <Link href="/Schedule-a-meeting" className="hover:text-gray-900">
+                  <Link href="/schedule-a-meeting" className="hover:text-gray-900">
                     Schedule a meeting
                   </Link>
                 </dd>

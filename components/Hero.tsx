@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Hero() {
 
     return (
-        <div>
+        <div className='h-full w-full'>
             <div className='h-full w-full px-8 flex justify-center' aria-hidden="true">
                 <Image
                     className="w-auto"
